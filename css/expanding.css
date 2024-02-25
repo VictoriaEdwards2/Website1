@@ -30,6 +30,7 @@ body
   flex: 0.5;
   margin: 3px;
   position: relative;
+  transition: flex 1s ease;
 }
 
 .panel.active
@@ -49,6 +50,7 @@ body
 .panel.active h3
 {
   opacity: 1;
+  transition: opacity .5s ease-in .5s;
 }
  @media (max-width: 480px)
  {
