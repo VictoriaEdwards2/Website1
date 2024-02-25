@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 *{
   box-sizing: border-box;
 }
@@ -9,6 +9,7 @@ body
   align-items:center;
   justify-content: center;
   margin: 0;
+  font-family: "Abel", sans-serif;
 }
 
 .container
