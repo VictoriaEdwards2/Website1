@@ -1,0 +1,2 @@
+panels = document.querySelectorAll('panel')
+
