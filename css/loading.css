@@ -16,9 +16,9 @@ body
     width: 100vw;
     position:absolute;
     z-index: -1;
-    background-image: url("images/building.JPG");
+    background-image: url("images/finance.JPG");
     background-position: center;
-    background-size: cover;
+    background-size: original;
     background-repeat: no-repeat;
     filter: blur(30px)
 
