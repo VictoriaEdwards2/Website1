@@ -7,12 +7,13 @@ body
     align-items: center;
     justify-content: center;
     margin: 0;
+    background-color: #8f9779;
 
 }
 
 .bg
 {
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     position:absolute;
     z-index: -1;
@@ -21,12 +22,14 @@ body
     background-size: original;
     background-repeat: no-repeat;
     filter: blur(30px)
-
 }
 .loading-text
 {
     font-size: 40px;
     color: #d3d3d3;
     opacity: 1;
+    border: 2;
+    border-style: ridge;
+    border-color: #d3d3d3;
 }
 
