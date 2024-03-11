@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap')
+
+:root
+{
+    --primary-color: green;
+    --secondary-color: #d3d3d3
+    --modal-duration: 2s;
+
+}
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    font-family: "Abel", sans-serif;
+    transition: transform .7s ease;
+}
+body.show-nav
+{
+    transform: translateX(200px);
+}
+nav
+{
+    background-color: #8f9779;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    border-right:2px solid rgba(200,200,200,.1);
+    z-index:100;
+    color: #d3d3d3;
+    transform: translateX(-100%);
+
+}
+nav .logo
+{
+    padding: 30px 0;
+    text-align: center;
+
+}
+nav .logo img
+{
+    height: 75px;
+    width:75px;
+    border-radius:50%;
+
+}
+
+nav ul li a
+{
+    color: #d3d3d3;
+    text-decoration: none;
+
+
+}
+
+nav ul li a:hover
+{
+    text-decoration: underline;
+
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+nav ul li
+{
+    padding:20px;
+    border-bottom: 2px solid rgba(200,200,200,.1);
+
+}
+nav ul li: nth-of-type(1)
+{
+
+    border-top: 2px solid rgba(200,200,200,0.1);
+}
+header
+{
+    background-color: #8f9779;
+    color: #d3d3d3;
+    font-size:130%;
+    position:relative;
+    padding: 40px 15px;
+    text-align: center;
+}
+header h1
+{
+    margin: 0;
+
+}
+
+header p
+{
+    margin: 30px 0;
+}
+
+button
+{
+        background-color:#d3d3d3;
+        border: 0;
+        border-radius:5px;
+        color: #8f9779;
+        padding: 8px 12px;
+        cursor: pointer;
+        font-style: Bold;
+}
+input[type='submit']
+{
+    background-color:#8f9779;
+    border: 0;
+    border-radius:5px;
+    color: #d3d3d3;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-style: Bold;
+}
+.toggle
+{
+    background-color: #d3d3d3;
+    position:absolute;
+    top: 20px;
+    left: 20px;
+}
+.cta-btn
+{
+    padding: 12px 30px;
+    font-size: 20px;
+
+}
+.container
+{
+    padding: 15px;
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+
+}
+.modal-container
+{
+    position: fixed;
+    top: 0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgba(0,0,0,.6);
+    display: none;
+}
+.modal-container.show-modal
+{
+    display: block;
+}
+.modal
+{
+    background-color: #d3d3d3;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    max-width: 100%;
+    border-radius: 5px;
+    border: groovy;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    animation-name: modalopen;
+    animation-duration: 1s;
+}
+
+@keyframes modalopen
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+.modal-header
+{
+    background-color: #8f9779;
+    color: #d3d3d3;
+    padding:15px;
+}
+
+modal-header h3
+{
+    margin: 0;
+    border-bottom: 5px solid #d3d3d3;
+}
+.modal-content
+{
+    padding: 20px;
+
+}
+.modal-form div
+{
+    margin: 15px 0;
+
+}
+
+.modal-form label
+{
+    display: block;
+    margin-bottom: 5px
+}
+
+.modal-form .form-input
+{
+    padding: 8px;
+    width: 100%;
+
+}
+
+.close-btn
+{
+    position: absolute;
+    top: 0;
+    right:0;
+    /* background: transparent; */
+    font-size: 25px;
+}
