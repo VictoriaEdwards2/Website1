@@ -81,12 +81,12 @@ nav
     height: 100%;
     border-right:2px solid rgba(200,200,200,.1);
     z-index:100;
-    color: #d3d3d3;
+    color: #8f9779;
     /* transform: translateX(-100%); */
 }
 nav ul li a
 {
-    color: #d3d3d3;
+    color: #8f9779;
     text-decoration: none;
 }
 
