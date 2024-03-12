@@ -82,7 +82,7 @@ nav
     border-right:2px solid rgba(200,200,200,.1);
     z-index:100;
     color: #d3d3d3;
-    /* transform: translateX(-100%); */
+    transform: translateX(-100%);
 
 nav ul li a
 {
@@ -115,4 +115,11 @@ nav ul li: nth-of-type(1)
 {
 
     border-top: 2px solid rgba(200,200,200,0.1);
+}
+.toggle
+{
+    background-color: #d3d3d3;
+    position:absolute;
+    top: 20px;
+    left: 20px;
 }
