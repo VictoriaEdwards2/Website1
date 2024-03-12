@@ -23,7 +23,7 @@ body
     position: relative;
     height: 30px;
     font-family: "Abel", sans-serif;
-    padding: 10px;
+    padding: 30px;
 }
 .loading
 {
@@ -31,7 +31,7 @@ body
     position: relative;
     height: 30px;
     font-family: "Abel", sans-serif;
-    padding: 10px;
+    padding: 30px;
 }
 .expanding
 {
@@ -39,7 +39,7 @@ body
     position: relative;
     height: 30px;
     font-family: "Abel", sans-serif;
-    padding: 10px;
+    padding: 30px;
 }
 .sound
 {
@@ -47,7 +47,7 @@ body
     position: relative;
     height: 30px;
     font-family: "Abel", sans-serif;
-    padding: 10px;
+    padding: 30px;
 }
 .navigation
 {
@@ -55,13 +55,13 @@ body
     position: relative;
     height: 30px;
     font-family: "Abel", sans-serif;
-    padding: 10px;
+    padding: 30px;
 }
-.Landing 
+.LandingPage
 {
     font-size: 20px;
     position: relative;
     height: 30px;
     font-family: "Abel", sans-serif;
-    padding: 10px;
+    padding: 30px;
 }
