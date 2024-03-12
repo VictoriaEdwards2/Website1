@@ -77,7 +77,7 @@ body
         color: #d3d3d3;
         cursor: pointer;
         margin: .2rem;
-        position: center;
+        position: absolute;
         transition: flex 1s ease;
         border-style: outset;
         border-width: .3rem;
