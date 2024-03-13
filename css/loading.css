@@ -38,6 +38,7 @@ a {
     display: inline-block;
     padding: 5px 10px;
     border: outset;
+    border-color: #808080;
 
   }
   a:hover {
@@ -50,7 +51,7 @@ a {
   .Home {
     padding: 15px;
     background-color: #d3d3d3;
-    color: black;
+    color: #8f9779;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -61,7 +62,7 @@ a {
   .next {
     padding: 15px;
     background-color: #d3d3d3;
-    color: black;
+    color: #8f9779;
     position: absolute;
     top: 0px;
     right: 0px;
