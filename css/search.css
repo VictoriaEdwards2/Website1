@@ -67,8 +67,8 @@ a {
   a:hover {
     background-color: #d3d3d3;
     color: black
-    opacity: .7;
     border: inset;
+    opacity: .7;
   }
 
   .Home {
