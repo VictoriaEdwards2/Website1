@@ -115,3 +115,14 @@ body {
     color: #d3d3d3;
     font-weight: bold;
 }
+.next
+{
+    padding: 15px;
+    background-color: #d3d3d3;
+    color: #8f9779;
+    position: center;
+    top: 0px;
+    right: 0px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
