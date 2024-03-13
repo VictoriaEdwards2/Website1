@@ -13,7 +13,7 @@ body
 
 .bg
 {
-    height: 90vh;
+    height: 75vh;
     width: 100vw;
     position:absolute;
     z-index: -1;
@@ -32,4 +32,36 @@ body
     border-style: ridge;
     border-color: #d3d3d3;
 }
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
 
+  }
+  a:hover {
+    background-color: #d3d3d3;
+    color: black;
+    opacity: .7;
+  }
+
+  .Home {
+    padding: 15px;
+    background-color: #d3d3d3;
+    color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .next {
+    padding: 15px;
+    background-color: #d3d3d3;
+    color: black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
