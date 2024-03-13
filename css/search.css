@@ -69,15 +69,19 @@ a {
   }
 
   .Home {
+    padding: 15px;
     background-color: #d3d3d3;
     color: black;
-    top: -250px;
-    right:0px;
+    position: absolute;
+    top: 0px;
     left: 0px;
-    position: relative;
   }
 
   .next {
+    padding: 15px;
     background-color: #d3d3d3;
     color: black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
   }
