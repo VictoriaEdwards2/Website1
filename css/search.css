@@ -60,12 +60,15 @@ a {
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
+    border-style: outset;
+
 
   }
   a:hover {
     background-color: #d3d3d3;
-    color: black;
+    color: black
     opacity: .7;
+    border: inset;
   }
 
   .Home {

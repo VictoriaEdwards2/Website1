@@ -57,7 +57,7 @@ body
 }
  @media (max-width: 480px)
  {
-  .panel:nth-of-type(4)`  
+  .panel:nth-of-type(4)`
   {
     display: none;
   }
@@ -70,3 +70,38 @@ body
 
   }
  }
+ a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  
+
+}
+a:hover {
+  background-color: #d3d3d3;
+  color: black;
+  opacity: .7;
+}
+
+.Home {
+  padding: 10px;
+  background-color: #d3d3d3;
+  color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+
+.next {
+  padding: 10px;
+  background-color: #d3d3d3;
+  color: black;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
