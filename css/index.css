@@ -79,7 +79,7 @@ body.show-nav
 }
 nav
 {
-    background-color: #d3d3d3;
+    background-color: white;
     position: fixed;
     top: 0;
     left: 0;
@@ -92,7 +92,7 @@ nav
 }
 nav ul li a
 {
-    color: ;
+    color: #d3d3d3 ;
     text-decoration: none;
 }
 
