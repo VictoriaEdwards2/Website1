@@ -15,23 +15,61 @@ body
 {
         background-size: cover;
         background-position: center;
-        background-color: #808080;
-        padding: 1.0rem;
+        background-color: #d3d3d3;
+        padding: 2.0rem;
         border-radius: 10px;
         font-size: 2.0rem;
-        color: #d3d3d3;
+        color: #8f9779;
         cursor: pointer;
         flex: 0.5;
-        margin: .4rem;
+        margin: .6rem;
         position: relative;
         transition: flex 1s ease;
         border-style: outset;
         border-width: .3rem;
-        border-color: #d3d3d3;
+        border-color: #808080;
         font-family: "Abel", sans-serif;
 }
 
 .btn:hover
 {
     opacity: .85;
+    border: inset;
 }
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    border: outset;
+
+  }
+  a:hover {
+    background-color: #d3d3d3;
+    color: black;
+    opacity: .7;
+    border: inset;
+  }
+
+  .Home {
+    padding: 10px;
+    background-color: #d3d3d3;
+    color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+  }
+
+  .next {
+    padding: 10px;
+    background-color: #d3d3d3;
+    color: black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
