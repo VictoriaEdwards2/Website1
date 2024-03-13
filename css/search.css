@@ -71,8 +71,10 @@ a {
   .Home {
     background-color: #d3d3d3;
     color: black;
-    top: 0px;
+    top: -250px;
+    right:0px;
     left: 0px;
+    position: relative;
   }
 
   .next {
