@@ -128,33 +128,34 @@ nav ul li: nth-of-type(1)
     top: 20px;
     left: 20px;
 }
+
+.title
+{
+    background-color: #d3d3d3;
+    color: #8f9779;
+    font-size:130%;
+    position:relative;
+    padding: 40px 25px;
+    text-align: center;
+}
+.title h1
+{
+    margin: 0;
+
+
+}
+
+.title p
+{
+    margin: 30px 0;
+}
 button
 {
-        background-color:#d3d3d3;
+        background-color: #;
         border: 0;
         border-radius:5px;
         color: #8f9779;
         padding: 8px 12px;
         cursor: pointer;
         font-style: Bold;
-}
-header
-{
-    background-color: #d3d3d3;
-    color: #d3d3d3;
-    font-size:130%;
-    position:relative;
-    padding: 0px 15px;
-    text-align: center;
-}
-header h1
-{
-    margin: 0;
-    background-color: #d3d3d3;
-
-}
-
-header p
-{
-    margin: 30px 0;
 }
