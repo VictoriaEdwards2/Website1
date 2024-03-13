@@ -2,7 +2,12 @@
 *{
     box-sizing: border-box;
   }
-
+  body
+  {
+      margin: 0;
+      font-family: "Abel", sans-serif;
+      transition: transform .7s ease;
+  }
 body
 {
     background-color: #8f9779;
@@ -87,7 +92,7 @@ nav
 }
 nav ul li a
 {
-    color: #8f9779;
+    color: ;
     text-decoration: none;
 }
 
