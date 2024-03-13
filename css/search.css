@@ -60,19 +60,22 @@ a {
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
-    
+
   }
   a:hover {
-    background-color: #ddd;
+    background-color: #d3d3d3;
     color: black;
+    opacity: .7;
   }
 
   .Home {
-    background-color: #f1f1f1;
+    background-color: #d3d3d3;
     color: black;
+    top: 0px;
+    left: 0px;
   }
 
   .next {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #d3d3d3;
+    color: black;
   }
