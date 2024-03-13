@@ -123,7 +123,7 @@ nav ul li: nth-of-type(1)
 }
 .toggle
 {
-    background-color: #d3d3d3;
+    background-color: #8f9779;
     position:absolute;
     top: 20px;
     left: 20px;
@@ -151,11 +151,12 @@ nav ul li: nth-of-type(1)
 }
 button
 {
-        background-color: black;
+        background-color: #d3d3d3;
         border: 0;
         border-radius:5px;
-        color: #black;
+        color: #d3d3d3;
         padding: 8px 12px;
         cursor: pointer;
         font-style: Bold;
+        z-index: 100;
 }
