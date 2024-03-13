@@ -138,3 +138,22 @@ button
         cursor: pointer;
         font-style: Bold;
 }
+header
+{
+    background-color: #8f9779;
+    color: #d3d3d3;
+    font-size:130%;
+    position:relative;
+    padding: 20px 15px;
+    text-align: center;
+}
+header h1
+{
+    margin: 0;
+
+}
+
+header p
+{
+    margin: 30px 0;
+}
